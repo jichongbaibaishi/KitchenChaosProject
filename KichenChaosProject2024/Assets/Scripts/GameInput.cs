@@ -4,12 +4,20 @@ using UnityEngine;
 
 public class GameInput : MonoBehaviour
 {
-   public Vector3 GetMovementDirectionNormalized()
+    private GameControls gameControl;
+    private void Awake()
     {
-        float horizontal = Input.GetAxisRaw("Horizontal");
-    float vertical = Input.GetAxisRaw("Vertical");
-    Vector3 direction = new Vector3(horizontal, 0, vertical);
-    direction=direction.normalized;//µ•ŒªªØ
+        gameControl = new GameControls();
+        gameControl.Player.Enable();
+    }
+    public Vector3 GetMovementDirectionNormalized()
+    {
+
+        Vector2 inputVector2= gameControl.Player.Move.ReadValue<Vector2>();
+        //float horizontal = Input.GetAxisRaw("Horizontal");
+    //float vertical = Input.GetAxisRaw("Vertical");
+    Vector3 direction = new Vector3(inputVector2.x, 0,inputVector2.y);
+    direction=direction.normalized;//Âçï‰ΩçÂåñ
 
         return direction;
     }
