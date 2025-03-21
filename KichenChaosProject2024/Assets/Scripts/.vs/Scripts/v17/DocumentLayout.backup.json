@@ -34,8 +34,7 @@
               "RelativeToolTip": "GameInput.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvwYAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T05:11:44.724Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-20T05:11:44.724Z"
             },
             {
               "$type": "Document",
@@ -45,7 +44,7 @@
               "RelativeDocumentMoniker": "Player.cs",
               "ToolTip": "E:\\KitchenChaosProject\\KichenChaosProject2024\\Assets\\Scripts\\Player.cs",
               "RelativeToolTip": "Player.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABUAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-20T04:54:41.39Z",
               "EditorCaption": ""
@@ -60,8 +59,7 @@
               "RelativeToolTip": "PlayerAnimator.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T04:51:38.297Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-20T04:51:38.297Z"
             }
           ]
         }
