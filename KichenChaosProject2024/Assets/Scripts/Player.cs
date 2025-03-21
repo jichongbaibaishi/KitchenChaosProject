@@ -12,6 +12,13 @@ public class Player : MonoBehaviour
 
     private bool isWalking = false;
     // Start is called before the first frame update
+    private ClearCounter selectedCounter;
+    private void Start()
+    {
+        gameInput.OnInteractAction += GameInput_OnInteractAction;
+    }
+
+    
 
     private void Update()
     {
@@ -32,6 +39,11 @@ public class Player : MonoBehaviour
         }
     }
 
+    private void GameInput_OnInteractAction(object sender, System.EventArgs e)
+    {
+        // HandleInteraction();
+        selectedCounter?.Interact();
+    }
     private void HandleMovement()
     {
         Vector3 directon = gameInput.GetMovementDirectionNormalized();
@@ -52,8 +64,26 @@ public class Player : MonoBehaviour
         { 
             if(hitinfo.transform.TryGetComponent<ClearCounter>(out ClearCounter counter))
             {
-                counter.Interact();
+                //counter.Interact();
+                SetSlectedCounter(counter);
+            }
+            else
+            {
+                SetSlectedCounter(null);
             }
         }
+        else
+        {
+            SetSlectedCounter(null);
+        }
+    }
+    public void SetSlectedCounter(ClearCounter counter)
+    {
+        if (counter != selectedCounter)
+        {
+            selectedCounter?.CancelSelect();
+            counter?.SelectCounter();
+        }
+        this.selectedCounter = counter;
     }
 }
