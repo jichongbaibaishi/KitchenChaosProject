@@ -62,6 +62,7 @@
   <ItemGroup>
     <Compile Include="Assets\Game Controls.cs" />
     <Compile Include="Assets\Scripts\ClearCounter.cs" />
+    <Compile Include="Assets\Scripts\KitchenObjectSO.cs" />
     <Compile Include="Assets\Scripts\Player.cs" />
     <Compile Include="Assets\Scripts\PlayerAnimator.cs" />
     <Compile Include="Assets\Scripts\GameInput.cs" />

@@ -5,9 +5,12 @@ using UnityEngine;
 public class ClearCounter : MonoBehaviour
 {
     [SerializeField]private GameObject selectedCounter;
+    [SerializeField] private KitchenObjectSO kitchenObjectSO;
+    [SerializeField] private Transform topPoint;
     public void Interact()
     {
-        print(this.gameObject+"is intercting...");
+        GameObject go= GameObject.Instantiate(kitchenObjectSO.prefab, topPoint);
+        go.transform.localPosition = Vector3.zero;
     }
     public void SelectCounter()
     {
