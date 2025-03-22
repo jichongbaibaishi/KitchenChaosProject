@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "E:\\KitchenChaosProject\\KichenChaosProject2024\\Assets\\Scripts\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\KitchenChaosProject\\KichenChaosProject2024\\Assets\\Scripts\\Player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\KitchenChaosProject\\KichenChaosProject2024\\Assets\\Scripts\\ClearCounter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ClearCounter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\KitchenChaosProject\\KichenChaosProject2024\\Assets\\Scripts\\KitchenObjectSO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:KitchenObjectSO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\KitchenChaosProject\\KichenChaosProject2024\\Assets\\Scripts\\Player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\KitchenChaosProject\\KichenChaosProject2024\\Assets\\Scripts\\PlayerAnimator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,24 +30,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "KitchenObjectSO.cs",
+              "DocumentMoniker": "E:\\KitchenChaosProject\\KichenChaosProject2024\\Assets\\Scripts\\KitchenObjectSO.cs",
+              "RelativeDocumentMoniker": "KitchenObjectSO.cs",
+              "ToolTip": "E:\\KitchenChaosProject\\KichenChaosProject2024\\Assets\\Scripts\\KitchenObjectSO.cs",
+              "RelativeToolTip": "KitchenObjectSO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T11:35:44.739Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "ClearCounter.cs",
               "DocumentMoniker": "E:\\KitchenChaosProject\\KichenChaosProject2024\\Assets\\Scripts\\ClearCounter.cs",
               "RelativeDocumentMoniker": "ClearCounter.cs",
               "ToolTip": "E:\\KitchenChaosProject\\KichenChaosProject2024\\Assets\\Scripts\\ClearCounter.cs",
               "RelativeToolTip": "ClearCounter.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvwcAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwwAAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-21T07:12:20.091Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "GameInput.cs",
               "DocumentMoniker": "E:\\KitchenChaosProject\\KichenChaosProject2024\\Assets\\Scripts\\GameInput.cs",
               "RelativeDocumentMoniker": "GameInput.cs",
@@ -55,20 +72,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Player.cs",
               "DocumentMoniker": "E:\\KitchenChaosProject\\KichenChaosProject2024\\Assets\\Scripts\\Player.cs",
               "RelativeDocumentMoniker": "Player.cs",
               "ToolTip": "E:\\KitchenChaosProject\\KichenChaosProject2024\\Assets\\Scripts\\Player.cs",
               "RelativeToolTip": "Player.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAAADIAAAByAAAAAAAAAA==",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAADIAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-20T04:54:41.39Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "PlayerAnimator.cs",
               "DocumentMoniker": "E:\\KitchenChaosProject\\KichenChaosProject2024\\Assets\\Scripts\\PlayerAnimator.cs",
               "RelativeDocumentMoniker": "PlayerAnimator.cs",
@@ -76,8 +93,7 @@
               "RelativeToolTip": "PlayerAnimator.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T04:51:38.297Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-20T04:51:38.297Z"
             }
           ]
         }
