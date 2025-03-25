@@ -14,10 +14,6 @@ public class KitchenObjectHolder : MonoBehaviour
     {
         return kitchenObject;
     }
-    public KitchenObjectSO GetKitchenObjectSO()
-    {
-        return kitchenObject.GetKitchenObjectSO();
-    }
     public void SetKitchenObject(KitchenObject kitchenObject)
     {
         this.kitchenObject = kitchenObject;
@@ -29,20 +25,20 @@ public class KitchenObjectHolder : MonoBehaviour
         return holdPoint;
     }
 
-    public void TransferKitchenObject(KitchenObjectHolder sourceHolder, KitchenObjectHolder targetHolder)
+    public void TransferKitchenObject(ClearCounter sourceCounter,ClearCounter targetCounter)
     {
-        if (sourceHolder.GetKitchenObject() == null)
+        if (sourceCounter.GetKitchenObject() == null)
         {
             Debug.LogWarning("源持有者上不存在食材,转移失败。");
             return;
         }
-        if (targetHolder.GetKitchenObject() != null)
+        if (targetCounter.GetKitchenObject() != null)
         {
             Debug.LogWarning("目标持有者上存在食材,转移失败。");
             return;
         }
-        targetHolder.AddKitchenObject(sourceHolder.GetKitchenObject());
-        sourceHolder.ClearKitchenObject();
+        targetCounter.AddKitchenObject(sourceCounter.GetKitchenObject());
+        sourceCounter.ClearKitchenObject();
     }
     public void AddKitchenObject(KitchenObject kitchenObject)
     {
