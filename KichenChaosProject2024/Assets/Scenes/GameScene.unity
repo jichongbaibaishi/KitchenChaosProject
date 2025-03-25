@@ -126,6 +126,18 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1795115794}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &169586485 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1024825357774059456, guid: 2d16fc21bf9b2af44a8b2211dae6e179,
+    type: 3}
+  m_PrefabInstance: {fileID: 1227120779}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b186046689ba5ca4b940d3f67ae7d79e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &237871567
 GameObject:
   m_ObjectHideFlags: 0
@@ -157,6 +169,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5dbbb2d35e30de4ead691d59e491cf3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  holdPoint: {fileID: 0}
   movespeed: 7
   rotateSpeed: 10
   gameInput: {fileID: 1108599218}
@@ -868,10 +881,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1024825357774059456, guid: 2d16fc21bf9b2af44a8b2211dae6e179,
         type: 3}
+      propertyPath: testing
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1024825357774059456, guid: 2d16fc21bf9b2af44a8b2211dae6e179,
+        type: 3}
       propertyPath: KitchenObjectSO
       value: 
       objectReference: {fileID: 11400000, guid: 1b8e286dcd8a3b4469c17561da2d1a76,
         type: 2}
+    - target: {fileID: 1024825357774059456, guid: 2d16fc21bf9b2af44a8b2211dae6e179,
+        type: 3}
+      propertyPath: transferTargetCounter
+      value: 
+      objectReference: {fileID: 169586485}
     - target: {fileID: 8381016058637599257, guid: 2d16fc21bf9b2af44a8b2211dae6e179,
         type: 3}
       propertyPath: m_LocalPosition.x
