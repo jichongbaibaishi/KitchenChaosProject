@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UIElements;
 
-public class Player : MonoBehaviour
+public class Player : KitchenObjectHolder
 {
+    public static Player Instance { get; private set; }
     [SerializeField] private float movespeed = 7;
     [SerializeField] private float rotateSpeed = 10;
     [SerializeField] private GameInput gameInput;
@@ -17,8 +18,11 @@ public class Player : MonoBehaviour
     {
         gameInput.OnInteractAction += GameInput_OnInteractAction;
     }
+    private void Awake()
+    {
+        Instance = this;
+    }
 
-    
 
     private void Update()
     {

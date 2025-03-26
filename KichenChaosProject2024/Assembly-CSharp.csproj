@@ -66,6 +66,8 @@
     <Compile Include="Assets\Scripts\Player.cs" />
     <Compile Include="Assets\Scripts\PlayerAnimator.cs" />
     <Compile Include="Assets\Scripts\GameInput.cs" />
+    <Compile Include="Assets\Scripts\KitchenObject.cs" />
+    <Compile Include="Assets\Scripts\KitchenObjectHolder.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\_Assets\Font\character.txt" />
