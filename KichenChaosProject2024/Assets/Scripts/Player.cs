@@ -13,7 +13,7 @@ public class Player : KitchenObjectHolder
 
     private bool isWalking = false;
     // Start is called before the first frame update
-    private ClearCounter selectedCounter;
+    private BaseCounter selectedCounter;
     private void Start()
     {
         gameInput.OnInteractAction += GameInput_OnInteractAction;
@@ -46,7 +46,7 @@ public class Player : KitchenObjectHolder
     private void GameInput_OnInteractAction(object sender, System.EventArgs e)
     {
         // HandleInteraction();
-        selectedCounter?.Interact();
+        selectedCounter?.Interact(this);
     }
     private void HandleMovement()
     {
@@ -66,7 +66,7 @@ public class Player : KitchenObjectHolder
     {
             if (Physics.Raycast(transform.position, transform.forward, out RaycastHit hitinfo, 2f,counterLayerMask))
         { 
-            if(hitinfo.transform.TryGetComponent<ClearCounter>(out ClearCounter counter))
+            if(hitinfo.transform.TryGetComponent<BaseCounter>(out BaseCounter counter))
             {
                 //counter.Interact();
                 SetSlectedCounter(counter);
@@ -81,7 +81,7 @@ public class Player : KitchenObjectHolder
             SetSlectedCounter(null);
         }
     }
-    public void SetSlectedCounter(ClearCounter counter)
+    public void SetSlectedCounter(BaseCounter counter)
     {
         if (counter != selectedCounter)
         {
