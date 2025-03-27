@@ -5,17 +5,20 @@ using UnityEngine;
 public class ContainerCounter : BaseCounter
 {
     [SerializeField] private KitchenObjectSO kitchenObjectSO;
+
+    [SerializeField] private ContainerCounterVisual containCounterVisual;
+
     public override void Interact(Player player)
     {
-        if (GetKitchenObject() == null)
-        {
-            KitchenObject kitchenObject = GameObject.Instantiate(kitchenObjectSO.prefab, GetHoldPoint()).GetComponent<KitchenObject>();
-            SetKitchenObject(kitchenObject);
-        }
-        else
-        {
-            TransferKitchenObject(this, player);
-        }
+        if (player.IsHaveKitchenObject()) return;
+        CreateKitchenObject(kitchenObjectSO.prefab);
+        TransferKitchenObject(this, player);
+        containCounterVisual.PlayOpen();
+    }
+    public void CreateKitchenObject(GameObject kitchenObjectPrefab)
+    {
+        KitchenObject kitchenObject = GameObject.Instantiate(kitchenObjectPrefab, GetHoldPoint()).GetComponent<KitchenObject>();
+        SetKitchenObject(kitchenObject);
     }
 }
 

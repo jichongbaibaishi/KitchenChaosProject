@@ -69,10 +69,16 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6226334881921398121, guid: dee6eafa622d8c244af206462c8ccf6b,
+        type: 3}
+      propertyPath: kitchenObjectSO
+      value: 
+      objectReference: {fileID: 11400000, guid: 1d0523efc6f2c9a4894f2970923ddb57,
+        type: 2}
     - target: {fileID: 6300054369996015263, guid: dee6eafa622d8c244af206462c8ccf6b,
         type: 3}
       propertyPath: m_Name
-      value: ContainerCounter.Tomato Variant
+      value: ContainerCounter.Tomato
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -104,6 +110,7 @@ MonoBehaviour:
   holdPoint: {fileID: 7513525831460600502}
   selectedCounter: {fileID: 8472531459528872635}
   kitchenObjectSO: {fileID: 11400000, guid: 1b8e286dcd8a3b4469c17561da2d1a76, type: 2}
+  containCounterVisual: {fileID: 0}
 --- !u!4 &7513525831460600502 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2693568727647345163, guid: dee6eafa622d8c244af206462c8ccf6b,
