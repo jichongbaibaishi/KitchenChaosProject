@@ -13,6 +13,9 @@ public class BaseCounter : KitchenObjectHolder
            
 
     }
+    public virtual void InteractOperate(Player player) { 
+
+    }
     public void SelectCounter()
     {
         selectedCounter.SetActive(true);

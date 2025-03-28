@@ -61,8 +61,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Game Controls.cs" />
+    <Compile Include="Assets\Scripts\Counter\CuttingCounter.cs" />
     <Compile Include="Assets\Scripts\Counter\ClearCounter.cs" />
     <Compile Include="Assets\Scripts\Counter\BaseCounter.cs" />
+    <Compile Include="Assets\Scripts\Counter\ContainerCounterVisual.cs" />
     <Compile Include="Assets\Scripts\KitchenObjectSO.cs" />
     <Compile Include="Assets\Scripts\Player.cs" />
     <Compile Include="Assets\Scripts\PlayerAnimator.cs" />
