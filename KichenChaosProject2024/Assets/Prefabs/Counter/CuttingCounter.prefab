@@ -337,3 +337,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   holdPoint: {fileID: 2130695897315964914}
   selectedCounter: {fileID: 4047686479731949984}
+  cuttingRecipeList: {fileID: 11400000, guid: 4dadb346bed9b534b8a7f017dbb01ab2, type: 2}

@@ -4,13 +4,17 @@ using UnityEngine;
 
 public class CuttingCounter : BaseCounter
 {
-    [SerializeField] private KitchenObjectSO cutKitchenObjectSO;
+    [SerializeField] private CuttingRecipeListSO cuttingRecipeList;
+
+    private int cuttingCount = 0;
+
     public override void Interact(Player player)
     {
         if (player.IsHaveKitchenObject())
         {//手上有食材
             if (IsHaveKitchenObject() == false)
             {//当前柜台为空
+                cuttingCount = 0;
                 TransferKitchenObject(player, this);
             }
             else
@@ -32,9 +36,20 @@ public class CuttingCounter : BaseCounter
     }
     public override void InteractOperate(Player player)
     {
-        if (IsHaveKitchenObject()==true) {
-            DestroyKitchenObject();
-            CreateKitchenObject(cutKitchenObjectSO.prefab);
+        if (IsHaveKitchenObject()) {
+
+            if (cuttingRecipeList.TryGetCuttingRecipe(GetKitchenObject().GetKitchenObjectSO(),
+                out CuttingRecipe cuttingRecipe))
+            {
+                cuttingCount++;
+
+                if (cuttingCount == cuttingRecipe.cuttingCountMax)
+                {
+                    DestroyKitchenObject();
+                    CreateKitchenObject(cuttingRecipe.output.prefab);
+                }
+
+            }
         }
     }
 }
