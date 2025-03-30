@@ -64,8 +64,10 @@
     <Compile Include="Assets\Scripts\Counter\CuttingCounter.cs" />
     <Compile Include="Assets\Scripts\Counter\ClearCounter.cs" />
     <Compile Include="Assets\Scripts\Counter\BaseCounter.cs" />
+    <Compile Include="Assets\Scripts\ScriptObjects\CuttingRecipeSO.cs" />
     <Compile Include="Assets\Scripts\Counter\ContainerCounterVisual.cs" />
-    <Compile Include="Assets\Scripts\KitchenObjectSO.cs" />
+    <Compile Include="Assets\Scripts\UI\ProgressbarUI.cs" />
+    <Compile Include="Assets\Scripts\ScriptObjects\KitchenObjectSO.cs" />
     <Compile Include="Assets\Scripts\Player.cs" />
     <Compile Include="Assets\Scripts\PlayerAnimator.cs" />
     <Compile Include="Assets\Scripts\GameInput.cs" />

@@ -5,7 +5,7 @@ using UnityEngine;
 public class CuttingCounter : BaseCounter
 {
     [SerializeField] private CuttingRecipeListSO cuttingRecipeList;
-
+    [SerializeField]private ProgressbarUI progressbarUI;
     private int cuttingCount = 0;
 
     public override void Interact(Player player)
@@ -31,6 +31,7 @@ public class CuttingCounter : BaseCounter
             else
             {//当前柜台不为空
                 TransferKitchenObject(this, player);
+                progressbarUI.Hide();
             }
         }
     }
@@ -42,7 +43,7 @@ public class CuttingCounter : BaseCounter
                 out CuttingRecipe cuttingRecipe))
             {
                 cuttingCount++;
-
+                progressbarUI.UpdateProgress((float)cuttingCount / cuttingRecipe.cuttingCountMax);
                 if (cuttingCount == cuttingRecipe.cuttingCountMax)
                 {
                     DestroyKitchenObject();
