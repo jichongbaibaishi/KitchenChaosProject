@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Counter"
+    "\\Counter",
+    "\\ScriptObjects"
   ],
-  "SelectedNode": "\\Counter\\BaseCounter.cs",
+  "SelectedNode": "\\Player.cs",
   "PreviewInSolutionExplorer": false
 }

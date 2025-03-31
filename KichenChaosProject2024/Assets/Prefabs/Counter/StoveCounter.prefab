@@ -356,6 +356,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   holdPoint: {fileID: 1533928938047652947}
   selectedCounter: {fileID: 2139401441303910487}
+  fryingRecipeList: {fileID: 11400000, guid: a58fd2c6b4722514e9adb9902bde74c8, type: 2}
 --- !u!4 &8699903178161059446 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 209553317617530025, guid: 7db0cf03b5dd74c4592a15a911d5251d,
