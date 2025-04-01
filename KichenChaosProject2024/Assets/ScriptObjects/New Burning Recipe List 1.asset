@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d3cffaad008971e4d9a34f3370215483, type: 3}
-  m_Name: New Frying Recipe List
+  m_Name: New Burning Recipe List 1
   m_EditorClassIdentifier: 
   List:
-  - input: {fileID: 11400000, guid: 3ff9a3d2c8575be4faa25879697b855e, type: 2}
-    output: {fileID: 11400000, guid: 074190e3baf755b41a33b3eb125340af, type: 2}
-    fryingTime: 2
+  - input: {fileID: 11400000, guid: 074190e3baf755b41a33b3eb125340af, type: 2}
+    output: {fileID: 11400000, guid: ceb2874929e1a6441978109bd76d07c3, type: 2}
+    fryingTime: 3

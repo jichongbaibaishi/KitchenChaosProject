@@ -60,11 +60,13 @@
     <Analyzer Include="F:\unity1\2023.1.20f1c1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\ScriptObjects\FryingRecipeListSO.cs" />
     <Compile Include="Assets\Game Controls.cs" />
     <Compile Include="Assets\Scripts\Counter\TrashCounter.cs" />
     <Compile Include="Assets\Scripts\Counter\CuttingCounter.cs" />
     <Compile Include="Assets\Scripts\Counter\ClearCounter.cs" />
     <Compile Include="Assets\Scripts\Counter\BaseCounter.cs" />
+    <Compile Include="Assets\Scripts\Counter\StoveCounterVisual.cs" />
     <Compile Include="Assets\Scripts\ScriptObjects\CuttingRecipeSO.cs" />
     <Compile Include="Assets\Scripts\Counter\ContainerCounterVisual.cs" />
     <Compile Include="Assets\Scripts\Counter\CuttingCounterVisual.cs" />

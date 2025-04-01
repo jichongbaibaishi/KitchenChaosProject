@@ -7,7 +7,15 @@
       "RelativeMoniker": "D:0:0:{2EF4A9C6-8553-BFCA-7AE5-4538850847A0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\counter\\stovecounter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2EF4A9C6-8553-BFCA-7AE5-4538850847A0}|Assembly-CSharp.csproj|f:\\github\\kichenchaosproject2024\\assets\\scripts\\counter\\cuttingcounter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2EF4A9C6-8553-BFCA-7AE5-4538850847A0}|Assembly-CSharp.csproj|f:\\github\\kichenchaosproject2024\\assets\\scripts\\counter\\stovecountervisual.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EF4A9C6-8553-BFCA-7AE5-4538850847A0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\counter\\stovecountervisual.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EF4A9C6-8553-BFCA-7AE5-4538850847A0}|Assembly-CSharp.csproj|F:\\github\\KichenChaosProject2024\\assets\\scripts\\kitchenobjectholder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EF4A9C6-8553-BFCA-7AE5-4538850847A0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\kitchenobjectholder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EF4A9C6-8553-BFCA-7AE5-4538850847A0}|Assembly-CSharp.csproj|F:\\github\\KichenChaosProject2024\\assets\\scripts\\counter\\cuttingcounter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2EF4A9C6-8553-BFCA-7AE5-4538850847A0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\counter\\cuttingcounter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -31,10 +39,6 @@
       "RelativeMoniker": "D:0:0:{2EF4A9C6-8553-BFCA-7AE5-4538850847A0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gameinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2EF4A9C6-8553-BFCA-7AE5-4538850847A0}|Assembly-CSharp.csproj|F:\\github\\KichenChaosProject2024\\assets\\scripts\\kitchenobjectholder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2EF4A9C6-8553-BFCA-7AE5-4538850847A0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\kitchenobjectholder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2EF4A9C6-8553-BFCA-7AE5-4538850847A0}|Assembly-CSharp.csproj|F:\\github\\KichenChaosProject2024\\Assembly-CSharp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{2EF4A9C6-8553-BFCA-7AE5-4538850847A0}|Assembly-CSharp.csproj|solutionrelative:Assembly-CSharp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
@@ -50,49 +54,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "StoveCounter.cs",
-              "DocumentMoniker": "F:\\github\\KichenChaosProject2024\\Assets\\Scripts\\Counter\\StoveCounter.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Counter\\StoveCounter.cs",
-              "ToolTip": "F:\\github\\KichenChaosProject2024\\Assets\\Scripts\\Counter\\StoveCounter.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Counter\\StoveCounter.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAADAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-31T11:33:29.867Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CuttingCounterVisual.cs",
-              "DocumentMoniker": "F:\\github\\KichenChaosProject2024\\Assets\\Scripts\\Counter\\CuttingCounterVisual.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Counter\\CuttingCounterVisual.cs",
-              "ToolTip": "F:\\github\\KichenChaosProject2024\\Assets\\Scripts\\Counter\\CuttingCounterVisual.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Counter\\CuttingCounterVisual.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-31T01:34:18.079Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "CuttingCounter.cs",
-              "DocumentMoniker": "F:\\github\\KichenChaosProject2024\\Assets\\Scripts\\Counter\\CuttingCounter.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Counter\\CuttingCounter.cs",
-              "ToolTip": "F:\\github\\KichenChaosProject2024\\Assets\\Scripts\\Counter\\CuttingCounter.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Counter\\CuttingCounter.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAqwCUAAAAJAAAA",
+              "Title": "StoveCounterVisual.cs",
+              "DocumentMoniker": "F:\\github\\KichenChaosProject2024\\Assets\\Scripts\\Counter\\StoveCounterVisual.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Counter\\StoveCounterVisual.cs",
+              "ToolTip": "F:\\github\\KichenChaosProject2024\\Assets\\Scripts\\Counter\\StoveCounterVisual.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Counter\\StoveCounterVisual.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-29T14:34:37.773Z",
+              "WhenOpened": "2025-04-01T06:55:14.765Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "ProgressbarUI.cs",
               "DocumentMoniker": "F:\\github\\KichenChaosProject2024\\Assets\\Scripts\\UI\\ProgressbarUI.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\ProgressbarUI.cs",
@@ -104,7 +83,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "BaseCounter.cs",
               "DocumentMoniker": "F:\\github\\KichenChaosProject2024\\Assets\\Scripts\\BaseCounter.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\BaseCounter.cs",
@@ -116,7 +95,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "ClearCounter.cs",
               "DocumentMoniker": "F:\\github\\KichenChaosProject2024\\Assets\\Scripts\\ClearCounter.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ClearCounter.cs",
@@ -128,19 +107,56 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 2,
               "Title": "KitchenObjectHolder.cs",
               "DocumentMoniker": "F:\\github\\KichenChaosProject2024\\Assets\\Scripts\\KitchenObjectHolder.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\KitchenObjectHolder.cs",
               "ToolTip": "F:\\github\\KichenChaosProject2024\\Assets\\Scripts\\KitchenObjectHolder.cs",
               "RelativeToolTip": "Assets\\Scripts\\KitchenObjectHolder.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAAAwBUAAAAFAAAA",
+              "ViewState": "AQIAACkAAAAAAAAAAAAAwDkAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-25T13:17:27.634Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
+              "Title": "StoveCounter.cs",
+              "DocumentMoniker": "F:\\github\\KichenChaosProject2024\\Assets\\Scripts\\Counter\\StoveCounter.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Counter\\StoveCounter.cs",
+              "ToolTip": "F:\\github\\KichenChaosProject2024\\Assets\\Scripts\\Counter\\StoveCounter.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Counter\\StoveCounter.cs",
+              "ViewState": "AQIAAF8AAAAAAAAAAAAgwHAAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T11:33:29.867Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CuttingCounter.cs",
+              "DocumentMoniker": "F:\\github\\KichenChaosProject2024\\Assets\\Scripts\\Counter\\CuttingCounter.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Counter\\CuttingCounter.cs",
+              "ToolTip": "F:\\github\\KichenChaosProject2024\\Assets\\Scripts\\Counter\\CuttingCounter.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Counter\\CuttingCounter.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAqwCUAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-29T14:34:37.773Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CuttingCounterVisual.cs",
+              "DocumentMoniker": "F:\\github\\KichenChaosProject2024\\Assets\\Scripts\\Counter\\CuttingCounterVisual.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Counter\\CuttingCounterVisual.cs",
+              "ToolTip": "F:\\github\\KichenChaosProject2024\\Assets\\Scripts\\Counter\\CuttingCounterVisual.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Counter\\CuttingCounterVisual.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T01:34:18.079Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "GameInput.cs",
               "DocumentMoniker": "F:\\github\\KichenChaosProject2024\\Assets\\Scripts\\GameInput.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameInput.cs",
@@ -152,7 +168,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Assembly-CSharp.csproj",
               "DocumentMoniker": "F:\\github\\KichenChaosProject2024\\Assembly-CSharp.csproj",
               "RelativeDocumentMoniker": "Assembly-CSharp.csproj",
@@ -164,7 +180,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "Player.cs",
               "DocumentMoniker": "F:\\github\\KichenChaosProject2024\\Assets\\Scripts\\Player.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player.cs",
