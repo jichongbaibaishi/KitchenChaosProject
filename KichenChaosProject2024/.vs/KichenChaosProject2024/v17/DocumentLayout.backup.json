@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\KitchenChaosProject\\KichenChaosProject2024\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2EF4A9C6-8553-BFCA-7AE5-4538850847A0}|Assembly-CSharp.csproj|e:\\kitchenchaosproject\\kichenchaosproject2024\\assets\\scripts\\counter\\stovecounter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EF4A9C6-8553-BFCA-7AE5-4538850847A0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\counter\\stovecounter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StoveCounter.cs",
+              "DocumentMoniker": "E:\\KitchenChaosProject\\KichenChaosProject2024\\Assets\\Scripts\\Counter\\StoveCounter.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Counter\\StoveCounter.cs",
+              "ToolTip": "E:\\KitchenChaosProject\\KichenChaosProject2024\\Assets\\Scripts\\Counter\\StoveCounter.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Counter\\StoveCounter.cs",
+              "ViewState": "AgIAAGwAAAAAAAAAAAAgwH4AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T11:33:29.867Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
