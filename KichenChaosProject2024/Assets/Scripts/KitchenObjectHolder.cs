@@ -9,10 +9,14 @@ public class KitchenObjectHolder : MonoBehaviour
     [SerializeField] private Transform holdPoint;
 
     private KitchenObject kitchenObject;
-
+    
     public KitchenObject GetKitchenObject()
     {
         return kitchenObject;
+    }
+    public KitchenObjectSO GetKitchenObjectSO()
+    {
+        return kitchenObject.GetKitchenObjectSO();
     }
     public bool IsHaveKitchenObject()
     {

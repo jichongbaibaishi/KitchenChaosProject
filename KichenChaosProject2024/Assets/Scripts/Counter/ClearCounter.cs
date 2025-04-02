@@ -9,27 +9,55 @@ public class ClearCounter : BaseCounter
     public override void Interact(Player player)
     {
         if (player.IsHaveKitchenObject())
-        {//ÊÖÉÏÓĞÊ³²Ä
-            if (IsHaveKitchenObject() == false)
-            {//µ±Ç°¹ñÌ¨Îª¿Õ
-                TransferKitchenObject(player, this);
+        {//æ‰‹ä¸Šæœ‰é£Ÿæ
+            if (player.GetKitchenObject().TryGetComponent<PlateKitchenObject>(out PlateKitchenObject plateKitchenObject))
+            {
+                //æœ‰ç›˜å­
+                if (IsHaveKitchenObject() == false)
+                {//å½“å‰æŸœå°ä¸ºç©º
+                    TransferKitchenObject(player, this);
+                }
+                else
+                {//å½“å‰æŸœå°ä¸ä¸ºç©º
+                    bool isSuccess=plateKitchenObject.AddKitchenObject(GetKitchenObjectSO());
+                    if (isSuccess)
+                    {
+                        DestroyKitchenObject();
+                    }
+                    
+                }
             }
             else
-            {//µ±Ç°¹ñÌ¨²»Îª¿Õ
+            {   //æ²¡ç›˜å­
+                if (IsHaveKitchenObject() == false)
+                {//å½“å‰æŸœå°ä¸ºç©º
+                    TransferKitchenObject(player, this);
+                }
+                else
+                {//å½“å‰æŸœå°ä¸ä¸ºç©º
+                    if(GetKitchenObject().TryGetComponent<PlateKitchenObject>(out plateKitchenObject))
+                    {
+                        bool isSuccess = plateKitchenObject.AddKitchenObject(player.GetKitchenObjectSO());
+                        if (isSuccess)
+                        {
+                            player.DestroyKitchenObject();
+                        }
+                    }
+                }
 
             }
         }
         else
-        {//ÊÖÉÏÃ»Ê³²Ä
+        {//æ‰‹ä¸Šæ²¡é£Ÿæ
             if (IsHaveKitchenObject() == false)
-            {//µ±Ç°¹ñÌ¨Îª¿Õ
-                
+            {//å½“å‰æŸœå°ä¸ºç©º
+
             }
             else
-            {//µ±Ç°¹ñÌ¨²»Îª¿Õ
+            {//å½“å‰æŸœå°ä¸ä¸ºç©º
                 TransferKitchenObject(this, player);
             }
         }
+        
     }
-   
 }
