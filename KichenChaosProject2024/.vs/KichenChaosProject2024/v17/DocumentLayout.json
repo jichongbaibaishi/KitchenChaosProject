@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "F:\\github\\KichenChaosProject2024\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2EF4A9C6-8553-BFCA-7AE5-4538850847A0}|Assembly-CSharp.csproj|f:\\github\\kichenchaosproject2024\\assets\\scripts\\scriptobjects\\recipelistso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2EF4A9C6-8553-BFCA-7AE5-4538850847A0}|Assembly-CSharp.csproj|f:\\github\\kichenchaosproject2024\\assets\\scripts\\ordermananger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EF4A9C6-8553-BFCA-7AE5-4538850847A0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ordermananger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EF4A9C6-8553-BFCA-7AE5-4538850847A0}|Assembly-CSharp.csproj|F:\\github\\KichenChaosProject2024\\assets\\scripts\\scriptobjects\\recipelistso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2EF4A9C6-8553-BFCA-7AE5-4538850847A0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scriptobjects\\recipelistso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EF4A9C6-8553-BFCA-7AE5-4538850847A0}|Assembly-CSharp.csproj|F:\\github\\KichenChaosProject2024\\assets\\scripts\\platekitchenobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EF4A9C6-8553-BFCA-7AE5-4538850847A0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\platekitchenobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EF4A9C6-8553-BFCA-7AE5-4538850847A0}|Assembly-CSharp.csproj|F:\\github\\KichenChaosProject2024\\assets\\scripts\\counter\\deliverycounter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EF4A9C6-8553-BFCA-7AE5-4538850847A0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\counter\\deliverycounter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2EF4A9C6-8553-BFCA-7AE5-4538850847A0}|Assembly-CSharp.csproj|F:\\github\\KichenChaosProject2024\\assets\\scripts\\scriptobjects\\recipeso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2EF4A9C6-8553-BFCA-7AE5-4538850847A0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scriptobjects\\recipeso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2EF4A9C6-8553-BFCA-7AE5-4538850847A0}|Assembly-CSharp.csproj|F:\\github\\KichenChaosProject2024\\assets\\scripts\\platecompletevisual.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2EF4A9C6-8553-BFCA-7AE5-4538850847A0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\platecompletevisual.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2EF4A9C6-8553-BFCA-7AE5-4538850847A0}|Assembly-CSharp.csproj|F:\\github\\KichenChaosProject2024\\assets\\scripts\\ui\\kitchenobjectgridui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,16 +31,8 @@
       "RelativeMoniker": "D:0:0:{2EF4A9C6-8553-BFCA-7AE5-4538850847A0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\kitchenobjecticonui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2EF4A9C6-8553-BFCA-7AE5-4538850847A0}|Assembly-CSharp.csproj|F:\\github\\KichenChaosProject2024\\assets\\scripts\\counter\\deliverycounter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2EF4A9C6-8553-BFCA-7AE5-4538850847A0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\counter\\deliverycounter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2EF4A9C6-8553-BFCA-7AE5-4538850847A0}|Assembly-CSharp.csproj|F:\\github\\KichenChaosProject2024\\assets\\scripts\\counter\\containercounter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2EF4A9C6-8553-BFCA-7AE5-4538850847A0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\counter\\containercounter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2EF4A9C6-8553-BFCA-7AE5-4538850847A0}|Assembly-CSharp.csproj|F:\\github\\KichenChaosProject2024\\assets\\scripts\\platekitchenobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2EF4A9C6-8553-BFCA-7AE5-4538850847A0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\platekitchenobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2EF4A9C6-8553-BFCA-7AE5-4538850847A0}|Assembly-CSharp.csproj|F:\\github\\KichenChaosProject2024\\assets\\scripts\\counter\\platescounter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -58,60 +58,60 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "RecipelistSO.cs",
-              "DocumentMoniker": "F:\\github\\KichenChaosProject2024\\Assets\\Scripts\\ScriptObjects\\RecipelistSO.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\ScriptObjects\\RecipelistSO.cs",
-              "ToolTip": "F:\\github\\KichenChaosProject2024\\Assets\\Scripts\\ScriptObjects\\RecipelistSO.cs",
-              "RelativeToolTip": "Assets\\Scripts\\ScriptObjects\\RecipelistSO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "DocumentIndex": 2,
+              "Title": "PlateKitchenObject.cs",
+              "DocumentMoniker": "F:\\github\\KichenChaosProject2024\\Assets\\Scripts\\PlateKitchenObject.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlateKitchenObject.cs",
+              "ToolTip": "F:\\github\\KichenChaosProject2024\\Assets\\Scripts\\PlateKitchenObject.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlateKitchenObject.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAiwBwAAAA3AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T07:12:54.593Z",
+              "WhenOpened": "2025-04-04T01:27:02.27Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OrderMananger.cs",
+              "DocumentMoniker": "F:\\github\\KichenChaosProject2024\\Assets\\Scripts\\OrderMananger.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\OrderMananger.cs",
+              "ToolTip": "F:\\github\\KichenChaosProject2024\\Assets\\Scripts\\OrderMananger.cs",
+              "RelativeToolTip": "Assets\\Scripts\\OrderMananger.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAUwCAAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T00:53:46.705Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "RecipeSO.cs",
-              "DocumentMoniker": "F:\\github\\KichenChaosProject2024\\Assets\\Scripts\\ScriptObjects\\RecipeSO.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\ScriptObjects\\RecipeSO.cs",
-              "ToolTip": "F:\\github\\KichenChaosProject2024\\Assets\\Scripts\\ScriptObjects\\RecipeSO.cs",
-              "RelativeToolTip": "Assets\\Scripts\\ScriptObjects\\RecipeSO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAATAAAA",
+              "Title": "RecipelistSO.cs",
+              "DocumentMoniker": "F:\\github\\KichenChaosProject2024\\Assets\\Scripts\\ScriptObjects\\RecipelistSO.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ScriptObjects\\RecipelistSO.cs",
+              "ToolTip": "F:\\github\\KichenChaosProject2024\\Assets\\Scripts\\ScriptObjects\\RecipelistSO.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ScriptObjects\\RecipelistSO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T07:17:35.268Z"
+              "WhenOpened": "2025-04-03T07:12:54.593Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ContainerCounter.cs",
-              "DocumentMoniker": "F:\\github\\KichenChaosProject2024\\Assets\\Scripts\\Counter\\ContainerCounter.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Counter\\ContainerCounter.cs",
-              "ToolTip": "F:\\github\\KichenChaosProject2024\\Assets\\Scripts\\Counter\\ContainerCounter.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Counter\\ContainerCounter.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T06:40:24.649Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "DeliveryCounter.cs",
               "DocumentMoniker": "F:\\github\\KichenChaosProject2024\\Assets\\Scripts\\Counter\\DeliveryCounter.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Counter\\DeliveryCounter.cs",
               "ToolTip": "F:\\github\\KichenChaosProject2024\\Assets\\Scripts\\Counter\\DeliveryCounter.cs",
               "RelativeToolTip": "Assets\\Scripts\\Counter\\DeliveryCounter.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAJAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-02T13:37:37.722Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "KitchenObjectIconUI.cs",
               "DocumentMoniker": "F:\\github\\KichenChaosProject2024\\Assets\\Scripts\\UI\\KitchenObjectIconUI.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\KitchenObjectIconUI.cs",
@@ -123,7 +123,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
+              "Title": "ContainerCounter.cs",
+              "DocumentMoniker": "F:\\github\\KichenChaosProject2024\\Assets\\Scripts\\Counter\\ContainerCounter.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Counter\\ContainerCounter.cs",
+              "ToolTip": "F:\\github\\KichenChaosProject2024\\Assets\\Scripts\\Counter\\ContainerCounter.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Counter\\ContainerCounter.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T06:40:24.649Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RecipeSO.cs",
+              "DocumentMoniker": "F:\\github\\KichenChaosProject2024\\Assets\\Scripts\\ScriptObjects\\RecipeSO.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ScriptObjects\\RecipeSO.cs",
+              "ToolTip": "F:\\github\\KichenChaosProject2024\\Assets\\Scripts\\ScriptObjects\\RecipeSO.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ScriptObjects\\RecipeSO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T07:17:35.268Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "KitchenObjectGridUI.cs",
               "DocumentMoniker": "F:\\github\\KichenChaosProject2024\\Assets\\Scripts\\UI\\KitchenObjectGridUI.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\KitchenObjectGridUI.cs",
@@ -132,30 +156,6 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-02T13:12:09.44Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "PlateCompleteVisual.cs",
-              "DocumentMoniker": "F:\\github\\KichenChaosProject2024\\Assets\\Scripts\\PlateCompleteVisual.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\PlateCompleteVisual.cs",
-              "ToolTip": "F:\\github\\KichenChaosProject2024\\Assets\\Scripts\\PlateCompleteVisual.cs",
-              "RelativeToolTip": "Assets\\Scripts\\PlateCompleteVisual.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-02T12:38:45.638Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "PlateKitchenObject.cs",
-              "DocumentMoniker": "F:\\github\\KichenChaosProject2024\\Assets\\Scripts\\PlateKitchenObject.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\PlateKitchenObject.cs",
-              "ToolTip": "F:\\github\\KichenChaosProject2024\\Assets\\Scripts\\PlateKitchenObject.cs",
-              "RelativeToolTip": "Assets\\Scripts\\PlateKitchenObject.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAABBAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-02T08:42:21.81Z"
             },
             {
               "$type": "Document",
