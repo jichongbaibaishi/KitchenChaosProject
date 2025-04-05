@@ -71,11 +71,13 @@
     <Compile Include="Assets\Scripts\ScriptObjects\RecipelistSO.cs" />
     <Compile Include="Assets\Scripts\Counter\BaseCounter.cs" />
     <Compile Include="Assets\Scripts\Counter\StoveCounterVisual.cs" />
+    <Compile Include="Assets\Scripts\UI\RecipeUI.cs" />
     <Compile Include="Assets\Scripts\ScriptObjects\CuttingRecipeSO.cs" />
     <Compile Include="Assets\Scripts\UI\KitchenObjectGridUI.cs" />
     <Compile Include="Assets\Scripts\Counter\ContainerCounterVisual.cs" />
     <Compile Include="Assets\Scripts\Counter\CuttingCounterVisual.cs" />
     <Compile Include="Assets\Scripts\OrderMananger.cs" />
+    <Compile Include="Assets\Scripts\UI\OrderlistUI.cs" />
     <Compile Include="Assets\Scripts\UI\ProgressbarUI.cs" />
     <Compile Include="Assets\Scripts\PlateKitchenObject.cs" />
     <Compile Include="Assets\Scripts\ScriptObjects\RecipeSO.cs" />

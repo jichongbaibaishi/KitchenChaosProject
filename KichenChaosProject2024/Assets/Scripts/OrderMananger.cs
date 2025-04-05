@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -5,6 +6,7 @@ using UnityEngine;
 public class OrderMananger : MonoBehaviour
 {
     public static OrderMananger Instance { get; private set; }
+    public event EventHandler OnRecipeSpawned;
     [SerializeField] private RecipelistSO recipeSOlist;
     [SerializeField] private int orderMaxCount = 5;
     [SerializeField] private float orderRate = 2;
@@ -41,12 +43,13 @@ public class OrderMananger : MonoBehaviour
 
     private void OrderAnewRecipe()
     {
-        if (orderCount>=5) {
+        if (orderCount>=orderMaxCount) {
             return;
         }
         orderCount++;
-        int index = Random.Range(0, recipeSOlist.recipeSOlists.Count);
+        int index = UnityEngine.Random.Range(0, recipeSOlist.recipeSOlists.Count);
         orderRecipeSOlist.Add(recipeSOlist.recipeSOlists[index]);
+        OnRecipeSpawned?.Invoke(this,EventArgs.Empty);
     }
     public void Delivery(PlateKitchenObject plateKitchenObject)
     {
@@ -77,16 +80,20 @@ public class OrderMananger : MonoBehaviour
         {
             return false;
         }
-        else
+        
+        
+        foreach(KitchenObjectSO kitchenObjectSO in s1)
         {
-            foreach(KitchenObjectSO kitchenObjectSO in s1)
-            {
                 if (s2.Contains(kitchenObjectSO) == false)
                 {
                     return false;
                 }
-            }
         }
+        
         return true;
+    }
+    public List<RecipeSO> GetOrderlist()
+    {
+        return orderRecipeSOlist;                         
     }
 }
