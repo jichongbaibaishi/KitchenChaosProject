@@ -19,7 +19,7 @@ public class StoveCounter : BaseCounter {
     private FryingRecipe fryingRecipe;
     private float fryingTimer = 0;
     private StoveState state = StoveState.Idle;
-
+    [SerializeField] private AudioSource sound;
     public override void Interact(Player player)
     {
         if (player.IsHaveKitchenObject())
@@ -106,6 +106,7 @@ public class StoveCounter : BaseCounter {
         this.fryingRecipe = fryingRecipe;
         state = StoveState.Frying;
         StoveCounterVisual.ShowStoveEffect();
+        sound.Play();
     }
 
     private void StartBurning(FryingRecipe fryingRecipe)
@@ -127,6 +128,7 @@ public class StoveCounter : BaseCounter {
         progressBarUI.Hide();
         state = StoveState.Idle;
         StoveCounterVisual.HideStoveEffect();
+        sound.Pause();
     }
 }
    

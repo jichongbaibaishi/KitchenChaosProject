@@ -2,7 +2,12 @@ using UnityEngine;
 
 public class SoundManager : MonoBehaviour
 {
+    public static SoundManager instance { get; private set; }
     [SerializeField] private AudioClipRefsSO audioClipRefsSO;
+    private void Awake()
+    {
+        instance = this;
+    }
     private void Start()
     {
         OrderMananger.Instance.OnRecipeSuccessed += Instance_OnRecipeSuccessed;
@@ -10,6 +15,12 @@ public class SoundManager : MonoBehaviour
         CuttingCounter.OnCut += CuttingCounter_OnCut;
         KitchenObjectHolder.OnDrop += KitchenObjectHolder_OnDrop;
         KitchenObjectHolder.OnPickup += KitchenObjectHolder_OnPickup;
+        TrashCounter.OnObjectTrashed += TrashCounter_OnObjectTrashed;
+    }
+
+    private void TrashCounter_OnObjectTrashed(object sender, System.EventArgs e)
+    {
+        PlaySound(audioClipRefsSO.trash);
     }
 
     private void KitchenObjectHolder_OnPickup(object sender, System.EventArgs e)
@@ -46,5 +57,10 @@ public class SoundManager : MonoBehaviour
     {
         int index = Random.Range(0, clips.Length);
         AudioSource.PlayClipAtPoint(clips[index], position, volume);
+    }
+    public void PlayerSound(float voice=.1f)
+    {
+        
+        PlaySound(audioClipRefsSO.footstep,voice);
     }
 }
