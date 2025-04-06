@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f69a0625868b0e4ea3f4ab21f9c729d, type: 3}
   m_Name: humbuger
   m_EditorClassIdentifier: 
-  recipeName: hunbuger
+  recipeName: "\u6C49\u5821\u5305"
   kitchenObjectSOs:
   - {fileID: 11400000, guid: 1b8e286dcd8a3b4469c17561da2d1a76, type: 2}
   - {fileID: 11400000, guid: 074190e3baf755b41a33b3eb125340af, type: 2}

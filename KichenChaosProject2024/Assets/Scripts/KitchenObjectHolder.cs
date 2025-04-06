@@ -5,7 +5,9 @@ using UnityEngine;
 
 public class KitchenObjectHolder : MonoBehaviour
 {
-    
+    public static event EventHandler  OnDrop;
+    public static event EventHandler OnPickup;
+
     [SerializeField] private Transform holdPoint;
 
     private KitchenObject kitchenObject;
@@ -24,7 +26,14 @@ public class KitchenObjectHolder : MonoBehaviour
     }
     public void SetKitchenObject(KitchenObject kitchenObject)
     {
-        this.kitchenObject = kitchenObject;
+        if(this.kitchenObject !=kitchenObject&&kitchenObject!=null&&this is BaseCounter)
+        {
+            OnDrop.Invoke(this, EventArgs.Empty);
+        }else if (this.kitchenObject != kitchenObject && kitchenObject != null && this is Player)
+        {
+            OnPickup.Invoke(this, EventArgs.Empty);
+        }
+            this.kitchenObject = kitchenObject;
         kitchenObject.transform.localPosition = Vector3.zero;
 
     }

@@ -7,6 +7,8 @@ public class OrderMananger : MonoBehaviour
 {
     public static OrderMananger Instance { get; private set; }
     public event EventHandler OnRecipeSpawned;
+    public event EventHandler OnRecipeSuccessed;
+    public event EventHandler OnRecipeFailed;
     [SerializeField] private RecipelistSO recipeSOlist;
     [SerializeField] private int orderMaxCount = 5;
     [SerializeField] private float orderRate = 2;
@@ -64,11 +66,13 @@ public class OrderMananger : MonoBehaviour
         if (correctRecipe == null)
         {
             print("上菜失败");
+            OnRecipeFailed?.Invoke(this, EventArgs.Empty);
         }
         else
         {
             orderRecipeSOlist.Remove(correctRecipe
                 );
+            OnRecipeSuccessed?.Invoke(this, EventArgs.Empty);
             print("上菜成功");
         }
     }
