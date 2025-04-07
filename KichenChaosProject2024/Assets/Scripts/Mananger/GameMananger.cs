@@ -96,6 +96,10 @@ public class GameMananger : MonoBehaviour
     {
         return state == State.CountDownToStart;
     }
+    public bool IsGamePlayingState()
+    {
+        return state == State.GamePlaaying;
+    }
     public float GetCountDownTimer()
     {
         return countdowntostart;

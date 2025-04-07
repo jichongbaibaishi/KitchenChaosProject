@@ -21,10 +21,7 @@ public class OrderMananger : MonoBehaviour
     private void Awake(){
         Instance = this;
     }
-    private void Start()
-    {
-        isStart = true;
-    }
+   
     private void Update()
     {
         if (isStart) {
@@ -32,6 +29,19 @@ public class OrderMananger : MonoBehaviour
         
         }
     }
+    private void Start()
+    {
+        GameMananger.instance.onStateChanged += GameManager_OnStartChanged;
+    }
+
+    private void GameManager_OnStartChanged(object sender, EventArgs e)
+    {
+      if(GameMananger.instance .IsGamePlayingState())
+        {
+            StartSpawnOrder();
+        }
+    }
+
     private void OrderUpdate()
     {
         orderTimer += Time.deltaTime;
@@ -99,5 +109,10 @@ public class OrderMananger : MonoBehaviour
     public List<RecipeSO> GetOrderlist()
     {
         return orderRecipeSOlist;                         
+    }
+
+    public void StartSpawnOrder()
+    {
+        isStart = true;
     }
 }
