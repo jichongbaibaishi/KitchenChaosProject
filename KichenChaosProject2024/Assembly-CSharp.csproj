@@ -64,6 +64,7 @@
     <Compile Include="Assets\Scripts\ScriptObjects\FryingRecipeListSO.cs" />
     <Compile Include="Assets\Scripts\ScriptObjects\AudioClipRefsSO.cs" />
     <Compile Include="Assets\Scripts\Counter\PlatesCounter.cs" />
+    <Compile Include="Assets\Scripts\UI\CountDownUI.cs" />
     <Compile Include="Assets\Game Controls.cs" />
     <Compile Include="Assets\Scripts\Counter\TrashCounter.cs" />
     <Compile Include="Assets\Scripts\PlateCompleteVisual.cs" />
