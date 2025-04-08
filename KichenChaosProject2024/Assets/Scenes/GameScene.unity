@@ -2402,6 +2402,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 893062745}
+  - component: {fileID: 893062746}
   m_Layer: 5
   m_Name: GameOverUI
   m_TagString: Untagged
@@ -2429,6 +2430,20 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &893062746
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 893062744}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a13eb4b6a757ba4a841784f87b33d0f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  uiParent: {fileID: 2004780030}
+  numberTextUI: {fileID: 235702959}
 --- !u!1001 &909437575
 PrefabInstance:
   m_ObjectHideFlags: 0

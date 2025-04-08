@@ -19,7 +19,7 @@ public class GameMananger : MonoBehaviour
     private float waitingtostarttimer = 1;
     //private float waitingtostoptimer = 1;
     private float countdowntostart = 3;
-    private float gameplayingtomer= 10;
+    private float gameplayingtomer= 30;
     private void Awake()
     {
         instance = this;
@@ -99,6 +99,10 @@ public class GameMananger : MonoBehaviour
     public bool IsGamePlayingState()
     {
         return state == State.GamePlaaying;
+    }
+    public bool IsGameOut()
+    {
+        return state == State.GameOver;
     }
     public float GetCountDownTimer()
     {
