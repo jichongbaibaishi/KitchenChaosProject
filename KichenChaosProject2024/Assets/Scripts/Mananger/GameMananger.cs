@@ -14,6 +14,8 @@ public class GameMananger : MonoBehaviour
         GameOver
     }
     public event EventHandler onStateChanged;
+    public event EventHandler onGamePaused;
+    public event EventHandler onGameUnpaused;
     private State state;
     private bool isGamePause=false;
     [SerializeField]private Player player;
@@ -119,15 +121,17 @@ public class GameMananger : MonoBehaviour
     {
         return countdowntostart;
     }
-    private void TiggleGame()
+    public void TiggleGame()
     {
         isGamePause = !isGamePause;
         if (isGamePause)
         {
             Time.timeScale = 0;
+            onGamePaused?.Invoke(this, EventArgs.Empty);
         }else
         {
             Time.timeScale=1;
+            onGameUnpaused?.Invoke(this, EventArgs.Empty);
         }
     }
 }
