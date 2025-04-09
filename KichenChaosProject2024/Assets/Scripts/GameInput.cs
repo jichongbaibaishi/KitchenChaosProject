@@ -5,15 +5,24 @@ using UnityEngine;
 
 public class GameInput : MonoBehaviour
 {
+    public static GameInput instance {  get; private set; }
     public event EventHandler OnInteractAction;
     public event EventHandler OnOperateAction;
+    public event EventHandler OnPauseAction;
     private GameControls gameControl;
     private void Awake()
     {
+        instance = this;
         gameControl = new GameControls();
         gameControl.Player.Enable();
         gameControl.Player.Interact.performed += Interact_performed;
         gameControl.Player.Operate.performed += Operate_performed;
+        gameControl.Player.Pause.performed += Pause_performed;
+    }
+
+    private void Pause_performed(UnityEngine.InputSystem.InputAction.CallbackContext obj)
+    {
+        OnPauseAction?.Invoke(this, EventArgs.Empty);
     }
 
     private void Operate_performed(UnityEngine.InputSystem.InputAction.CallbackContext obj)

@@ -15,6 +15,7 @@ public class GameMananger : MonoBehaviour
     }
     public event EventHandler onStateChanged;
     private State state;
+    private bool isGamePause=false;
     [SerializeField]private Player player;
     private float waitingtostarttimer = 1;
     //private float waitingtostoptimer = 1;
@@ -23,9 +24,19 @@ public class GameMananger : MonoBehaviour
     private void Awake()
     {
         instance = this;
-        TurntoWaitingToStart();
+       
     }
-   
+    private void Start()
+    {
+        TurntoWaitingToStart();
+        GameInput.instance.OnPauseAction += GameInput_OnPauseAction;
+    }
+
+    private void GameInput_OnPauseAction(object sender, EventArgs e)
+    {
+        TiggleGame();
+    }
+
     void Update()
     {
         switch (state)
@@ -107,5 +118,16 @@ public class GameMananger : MonoBehaviour
     public float GetCountDownTimer()
     {
         return countdowntostart;
+    }
+    private void TiggleGame()
+    {
+        isGamePause = !isGamePause;
+        if (isGamePause)
+        {
+            Time.timeScale = 0;
+        }else
+        {
+            Time.timeScale=1;
+        }
     }
 }
