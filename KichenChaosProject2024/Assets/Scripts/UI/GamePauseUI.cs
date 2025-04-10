@@ -9,6 +9,7 @@ public class GamePauseUI : MonoBehaviour
     [SerializeField] private GameObject uiParent;
     [SerializeField] private Button resumeButton;
     [SerializeField] private Button menuButton;
+    [SerializeField] private Button settingsButton;
     private void Start()
     {
         Hide();
@@ -24,6 +25,11 @@ public class GamePauseUI : MonoBehaviour
             Loader.Load(Loader.Scene.GameMenuScene);
         }
        );
+        settingsButton.onClick.AddListener(() =>
+        {
+            SettingsUI.instance.Show();
+        }
+      );
     }
 
     private void GameManager_onGameUnpaused(object sender, System.EventArgs e)

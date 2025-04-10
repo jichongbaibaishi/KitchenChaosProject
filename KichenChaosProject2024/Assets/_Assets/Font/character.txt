@@ -20,6 +20,6 @@
 烹饪菜
 漂亮  错误
 订单列表
-1234567890
+1234567890:
 qwertyuiopasdfghjklzxcvbnm_
 QWERTYUIOPASDFGHJKLZXCVBNM
