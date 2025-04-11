@@ -4,7 +4,7 @@ public class SoundManager : MonoBehaviour
 {
     public static SoundManager instance { get; private set; }
     [SerializeField] private AudioClipRefsSO audioClipRefsSO;
-    private float volume = 5;
+    private int volume = 5;
     private void Awake()
     {
         instance = this;
@@ -72,5 +72,9 @@ public class SoundManager : MonoBehaviour
         {
             volume = 0;
         }
+    }
+    public int GetVolume()
+    {
+        return volume;
     }
 }
