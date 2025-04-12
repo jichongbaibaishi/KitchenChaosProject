@@ -50,7 +50,7 @@ public class SettingsUI : MonoBehaviour
     }
     private void UpdateVisual()
     {
-        soundButtonText.text="音量大小："+SoundManager.instance.GetVolume();
-        musicButtonText.text="音乐大小："+MusicManager.instance.GetVolume();
+        soundButtonText.text="音效大小:"+SoundManager.instance.GetVolume();
+        musicButtonText.text="音乐大小:"+MusicManager.instance.GetVolume();
     }
 }
