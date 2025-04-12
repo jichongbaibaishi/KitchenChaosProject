@@ -14,6 +14,23 @@ public class SettingsUI : MonoBehaviour
     [SerializeField] private TextMeshProUGUI musicButtonText;
     [SerializeField] private Button closeButton;
 
+
+    [SerializeField] private Button upKeyButton;
+    [SerializeField] private Button downKeyButton;
+    [SerializeField] private Button leftKeyButton;
+    [SerializeField] private Button rightKeyButton;
+    [SerializeField] private Button interactKeyButton;
+    [SerializeField] private Button operateKeyButton;
+    [SerializeField] private Button pauseKeyButton;
+
+    [SerializeField] private TextMeshProUGUI upKeyButtonText;
+    [SerializeField] private TextMeshProUGUI downKeyButtonText;
+    [SerializeField] private TextMeshProUGUI leftKeyButtonText;
+    [SerializeField] private TextMeshProUGUI rightKeyButtonText;
+    [SerializeField] private TextMeshProUGUI interactKeyButtonText;
+    [SerializeField] private TextMeshProUGUI operateKeyButtonText;
+    [SerializeField] private TextMeshProUGUI pauseKeyButtonText;
+
     private void Awake()
     {
         instance = this;

@@ -19,6 +19,15 @@ public class GameInput : MonoBehaviour
         gameControl.Player.Operate.performed += Operate_performed;
         gameControl.Player.Pause.performed += Pause_performed;
     }
+
+    private void Start()
+    {
+        print(gameControl.Player.Move.bindings[1].ToDisplayString());
+        print(gameControl.Player.Move.bindings[2].ToDisplayString());
+        print(gameControl.Player.Move.bindings[3].ToDisplayString());
+        print(gameControl.Player.Move.bindings[4].ToDisplayString());
+        print(gameControl.Player.Interact.bindings[0].ToDisplayString());
+    }
     private void onDestroy()
     {
         gameControl.Player.Interact.performed -= Interact_performed;
