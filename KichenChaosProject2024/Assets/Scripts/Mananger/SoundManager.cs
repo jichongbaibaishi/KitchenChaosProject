@@ -5,9 +5,11 @@ public class SoundManager : MonoBehaviour
     public static SoundManager instance { get; private set; }
     [SerializeField] private AudioClipRefsSO audioClipRefsSO;
     private int volume = 5;
+    private const string SOUNDMANAGER_VOLUME="SoundManagerVolume";
     private void Awake()
     {
         instance = this;
+        LoadVolume();
     }
     private void Start()
     {
@@ -17,6 +19,7 @@ public class SoundManager : MonoBehaviour
         KitchenObjectHolder.OnDrop += KitchenObjectHolder_OnDrop;
         KitchenObjectHolder.OnPickup += KitchenObjectHolder_OnPickup;
         TrashCounter.OnObjectTrashed += TrashCounter_OnObjectTrashed;
+        
     }
 
     private void TrashCounter_OnObjectTrashed(object sender, System.EventArgs e)
@@ -56,6 +59,7 @@ public class SoundManager : MonoBehaviour
     }
     private void PlaySound(AudioClip[] clips,Vector3 position,float volumeMultipler = 1.0f)
     {
+        if (volume == 0) return;
         int index = Random.Range(0, clips.Length);
         AudioSource.PlayClipAtPoint(clips[index], position, volumeMultipler * (volume/10.0f));
     }
@@ -72,9 +76,18 @@ public class SoundManager : MonoBehaviour
         {
             volume = 0;
         }
+        SaveVolume();
     }
     public int GetVolume()
     {
         return volume;
+    }
+    private void SaveVolume()
+    {
+        PlayerPrefs.SetInt(SOUNDMANAGER_VOLUME,volume);
+    }
+    private void LoadVolume()
+    {
+        volume=PlayerPrefs.GetInt(SOUNDMANAGER_VOLUME,volume);
     }
 }
