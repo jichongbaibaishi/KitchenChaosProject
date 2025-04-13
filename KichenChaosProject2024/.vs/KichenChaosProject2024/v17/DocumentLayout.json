@@ -11,10 +11,6 @@
       "RelativeMoniker": "D:0:0:{2EF4A9C6-8553-BFCA-7AE5-4538850847A0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\settingsui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2EF4A9C6-8553-BFCA-7AE5-4538850847A0}|Assembly-CSharp.csproj|E:\\KitchenChaosProject\\KichenChaosProject2024\\assets\\_assets\\font\\character.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{2EF4A9C6-8553-BFCA-7AE5-4538850847A0}|Assembly-CSharp.csproj|solutionrelative:assets\\_assets\\font\\character.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2EF4A9C6-8553-BFCA-7AE5-4538850847A0}|Assembly-CSharp.csproj|E:\\KitchenChaosProject\\KichenChaosProject2024\\assets\\scripts\\mananger\\soundmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2EF4A9C6-8553-BFCA-7AE5-4538850847A0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mananger\\soundmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -52,26 +48,14 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameInput.cs",
               "ToolTip": "E:\\KitchenChaosProject\\KichenChaosProject2024\\Assets\\Scripts\\GameInput.cs",
               "RelativeToolTip": "Assets\\Scripts\\GameInput.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAADwvxsAAABFAAAAAAAAAA==",
+              "ViewState": "AgIAABkAAAAAAAAAAAA4wCwAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-12T08:20:25.591Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "character.txt",
-              "DocumentMoniker": "E:\\KitchenChaosProject\\KichenChaosProject2024\\Assets\\_Assets\\Font\\character.txt",
-              "RelativeDocumentMoniker": "Assets\\_Assets\\Font\\character.txt",
-              "ToolTip": "E:\\KitchenChaosProject\\KichenChaosProject2024\\Assets\\_Assets\\Font\\character.txt",
-              "RelativeToolTip": "Assets\\_Assets\\Font\\character.txt",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-04-11T15:30:03.348Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "TMPro_UGUI_Private.cs",
               "DocumentMoniker": "E:\\KitchenChaosProject\\KichenChaosProject2024\\Library\\PackageCache\\com.unity.textmeshpro@3.0.6\\Scripts\\Runtime\\TMPro_UGUI_Private.cs",
               "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.textmeshpro@3.0.6\\Scripts\\Runtime\\TMPro_UGUI_Private.cs",
@@ -83,7 +67,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "MusicManager.cs",
               "DocumentMoniker": "E:\\KitchenChaosProject\\KichenChaosProject2024\\Assets\\Scripts\\Mananger\\MusicManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Mananger\\MusicManager.cs",
@@ -95,7 +79,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "PlayerSound.cs",
               "DocumentMoniker": "E:\\KitchenChaosProject\\KichenChaosProject2024\\Assets\\Scripts\\PlayerSound.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerSound.cs",
@@ -107,7 +91,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "SoundManager.cs",
               "DocumentMoniker": "E:\\KitchenChaosProject\\KichenChaosProject2024\\Assets\\Scripts\\Mananger\\SoundManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Mananger\\SoundManager.cs",
@@ -125,13 +109,14 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\SettingsUI.cs",
               "ToolTip": "E:\\KitchenChaosProject\\KichenChaosProject2024\\Assets\\Scripts\\UI\\SettingsUI.cs",
               "RelativeToolTip": "Assets\\Scripts\\UI\\SettingsUI.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAAwB8AAABAAAAAAAAAAA==",
+              "ViewState": "AgIAADsAAAAAAAAAAADwv04AAABoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T11:53:14.216Z"
+              "WhenOpened": "2025-04-10T11:53:14.216Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "GamePauseUI.cs",
               "DocumentMoniker": "E:\\KitchenChaosProject\\KichenChaosProject2024\\Assets\\Scripts\\UI\\GamePauseUI.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\GamePauseUI.cs",

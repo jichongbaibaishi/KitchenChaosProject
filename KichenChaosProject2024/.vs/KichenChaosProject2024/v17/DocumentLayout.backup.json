@@ -11,7 +11,7 @@
       "RelativeMoniker": "D:0:0:{2EF4A9C6-8553-BFCA-7AE5-4538850847A0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\settingsui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2EF4A9C6-8553-BFCA-7AE5-4538850847A0}|Assembly-CSharp.csproj|e:\\kitchenchaosproject\\kichenchaosproject2024\\assets\\_assets\\font\\character.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "AbsoluteMoniker": "D:0:0:{2EF4A9C6-8553-BFCA-7AE5-4538850847A0}|Assembly-CSharp.csproj|E:\\KitchenChaosProject\\KichenChaosProject2024\\assets\\_assets\\font\\character.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{2EF4A9C6-8553-BFCA-7AE5-4538850847A0}|Assembly-CSharp.csproj|solutionrelative:assets\\_assets\\font\\character.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
@@ -52,7 +52,7 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameInput.cs",
               "ToolTip": "E:\\KitchenChaosProject\\KichenChaosProject2024\\Assets\\Scripts\\GameInput.cs",
               "RelativeToolTip": "Assets\\Scripts\\GameInput.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAxwBoAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAADwvxsAAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-12T08:20:25.591Z",
               "EditorCaption": ""
@@ -67,8 +67,7 @@
               "RelativeToolTip": "Assets\\_Assets\\Font\\character.txt",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-04-11T15:30:03.348Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-11T15:30:03.348Z"
             },
             {
               "$type": "Document",
@@ -128,8 +127,7 @@
               "RelativeToolTip": "Assets\\Scripts\\UI\\SettingsUI.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAAwB8AAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T11:53:14.216Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-10T11:53:14.216Z"
             },
             {
               "$type": "Document",

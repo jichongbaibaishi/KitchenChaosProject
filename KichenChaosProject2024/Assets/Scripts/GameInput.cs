@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class GameInput : MonoBehaviour
 {
@@ -10,6 +11,18 @@ public class GameInput : MonoBehaviour
     public event EventHandler OnOperateAction;
     public event EventHandler OnPauseAction;
     private GameControls gameControl;
+
+    public enum BindingType
+    {
+        Up,
+        Down, 
+        Left, 
+        Right,
+        Interact,
+        Operate,
+        Pause
+    }
+        
     private void Awake()
     {
         instance = this;
@@ -20,14 +33,63 @@ public class GameInput : MonoBehaviour
         gameControl.Player.Pause.performed += Pause_performed;
     }
 
-    private void Start()
+    private void Update()
     {
-        print(gameControl.Player.Move.bindings[1].ToDisplayString());
+        if (Input.GetMouseButtonDown(0))
+        {
+            print("开始绑定");
+            gameControl.Player.Disable();
+            gameControl.Player.Move.PerformInteractiveRebinding(1).OnComplete(callback =>
+            {
+                print(callback.action.bindings[1].path);
+                print(callback.action.bindings[1].overridePath);
+
+                callback.Dispose();
+                print("绑定完成");
+                gameControl.Player.Enable();
+            }).Start();
+        }
+    }
+
+    public string GetBindingDisplayString(BindingType bindingType)
+    {
+        switch (bindingType)
+        {
+            case BindingType.Up:
+                return gameControl.Player.Move.bindings[1].ToDisplayString();
+
+            case BindingType.Down:
+                return gameControl.Player.Move.bindings[2].ToDisplayString();
+
+            case BindingType.Left:
+                return gameControl.Player.Move.bindings[3].ToDisplayString();
+
+            case BindingType.Right:
+                return gameControl.Player.Move.bindings[4].ToDisplayString();
+
+            case BindingType.Interact:
+                return gameControl.Player.Interact.bindings[0].ToDisplayString();
+
+            case BindingType.Operate:
+                return gameControl.Player.Operate.bindings[0].ToDisplayString();
+
+            case BindingType.Pause:
+                return gameControl.Player.Pause.bindings[0].ToDisplayString();
+
+            default:
+                break;
+        }
+        return "";
+    }
+
+    /*private void Start()
+    {
+        print();
         print(gameControl.Player.Move.bindings[2].ToDisplayString());
         print(gameControl.Player.Move.bindings[3].ToDisplayString());
         print(gameControl.Player.Move.bindings[4].ToDisplayString());
-        print(gameControl.Player.Interact.bindings[0].ToDisplayString());
-    }
+        print();
+    }*/
     private void onDestroy()
     {
         gameControl.Player.Interact.performed -= Interact_performed;

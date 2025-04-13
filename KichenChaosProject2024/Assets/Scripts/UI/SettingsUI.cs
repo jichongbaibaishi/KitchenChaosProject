@@ -69,5 +69,13 @@ public class SettingsUI : MonoBehaviour
     {
         soundButtonText.text="音效大小:"+SoundManager.instance.GetVolume();
         musicButtonText.text="音乐大小:"+MusicManager.instance.GetVolume();
+
+        upKeyButtonText.text = GameInput.instance.GetBindingDisplayString(GameInput.BindingType.Up);
+        downKeyButtonText.text = GameInput.instance.GetBindingDisplayString(GameInput.BindingType.Down);
+        leftKeyButtonText.text = GameInput.instance.GetBindingDisplayString(GameInput.BindingType.Left);
+        rightKeyButtonText.text = GameInput.instance.GetBindingDisplayString(GameInput.BindingType.Right);
+        interactKeyButtonText.text = GameInput.instance.GetBindingDisplayString(GameInput.BindingType.Interact);
+        operateKeyButtonText.text = GameInput.instance.GetBindingDisplayString(GameInput.BindingType.Operate);
+        pauseKeyButtonText.text = GameInput.instance.GetBindingDisplayString(GameInput.BindingType.Pause);
     }
 }
