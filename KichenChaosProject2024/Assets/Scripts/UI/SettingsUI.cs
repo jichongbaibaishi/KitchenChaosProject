@@ -54,7 +54,35 @@ public class SettingsUI : MonoBehaviour
         {
             Hide();
         });
-     
+        upKeyButton.onClick.AddListener(() =>
+        {
+            ReBinding(GameInput.BindingType.Up);
+           
+   
+        });
+        downKeyButton.onClick.AddListener(() =>
+        {ReBinding(GameInput.BindingType.Down);
+        });
+        leftKeyButton.onClick.AddListener(() =>
+        {
+            ReBinding(GameInput.BindingType.Left);
+        });
+        rightKeyButton.onClick.AddListener(() =>
+        {
+            ReBinding(GameInput.BindingType.Right);
+        });
+        operateKeyButton.onClick.AddListener(() =>
+        {
+            ReBinding(GameInput.BindingType.Operate);
+        });
+        pauseKeyButton.onClick.AddListener(() =>
+        {
+            ReBinding(GameInput.BindingType.Pause);
+        });
+        interactKeyButton.onClick.AddListener(() =>
+        {
+            ReBinding(GameInput.BindingType.Interact);
+        });
     }
 
     public void Show()
@@ -77,5 +105,12 @@ public class SettingsUI : MonoBehaviour
         interactKeyButtonText.text = GameInput.instance.GetBindingDisplayString(GameInput.BindingType.Interact);
         operateKeyButtonText.text = GameInput.instance.GetBindingDisplayString(GameInput.BindingType.Operate);
         pauseKeyButtonText.text = GameInput.instance.GetBindingDisplayString(GameInput.BindingType.Pause);
+    }
+    private void ReBinding(GameInput.BindingType bindingType)
+    {
+        GameInput.instance.ReBinding(bindingType, () =>
+        {
+            UpdateVisual();
+        });
     }
 }
