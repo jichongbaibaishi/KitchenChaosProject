@@ -8,7 +8,7 @@ public class CuttingCounter : BaseCounter
 {
     public static event EventHandler OnCut;
     [SerializeField] private CuttingRecipeListSO cuttingRecipeList;
-    [SerializeField]private ProgressbarUI progressbarUI;
+    [SerializeField] private ProgressbarUI progressbarUI;
     [SerializeField] private CuttingCounterVisual CuttingCounterVisual;
     private int cuttingCount = 0;
 
@@ -41,7 +41,8 @@ public class CuttingCounter : BaseCounter
     }
     public override void InteractOperate(Player player)
     {
-        if (IsHaveKitchenObject()) {
+        if (IsHaveKitchenObject())
+        {
 
             if (cuttingRecipeList.TryGetCuttingRecipe(GetKitchenObject().GetKitchenObjectSO(),
                 out CuttingRecipe cuttingRecipe))
@@ -52,7 +53,7 @@ public class CuttingCounter : BaseCounter
                 {
                     DestroyKitchenObject();
                     CreateKitchenObject(cuttingRecipe.output.prefab);
-      
+
                 }
 
             }

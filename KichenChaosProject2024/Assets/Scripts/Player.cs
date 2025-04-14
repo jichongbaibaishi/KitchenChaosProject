@@ -16,6 +16,7 @@ public class Player : KitchenObjectHolder
     private BaseCounter selectedCounter;
     private void Start()
     {
+        
         gameInput.OnInteractAction += GameInput_OnInteractAction;
         gameInput.OnOperateAction += GameInput_OnOperateAction;
     }

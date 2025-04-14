@@ -31,6 +31,7 @@ public class SettingsUI : MonoBehaviour
     [SerializeField] private TextMeshProUGUI operateKeyButtonText;
     [SerializeField] private TextMeshProUGUI pauseKeyButtonText;
 
+    [SerializeField]private GameObject reBindingwint;
     private void Awake()
     {
         instance = this;
@@ -108,8 +109,10 @@ public class SettingsUI : MonoBehaviour
     }
     private void ReBinding(GameInput.BindingType bindingType)
     {
+        reBindingwint.SetActive(true);
         GameInput.instance.ReBinding(bindingType, () =>
         {
+            reBindingwint.SetActive(false);
             UpdateVisual();
         });
     }

@@ -11,7 +11,7 @@ public class GameInput : MonoBehaviour
     public event EventHandler OnOperateAction;
     public event EventHandler OnPauseAction;
     private GameControls gameControl;
-
+    private const string GAMEINPUT_BINDINGS = "GameInputBindings";
     public enum BindingType
     {
         Up,
@@ -25,8 +25,13 @@ public class GameInput : MonoBehaviour
         
     private void Awake()
     {
+        Debug.Log("GameInput Awake: instance = " + instance);
         instance = this;
         gameControl = new GameControls();
+        if (PlayerPrefs.HasKey(GAMEINPUT_BINDINGS))
+        {
+            gameControl.LoadBindingOverridesFromJson(PlayerPrefs.GetString(GAMEINPUT_BINDINGS));
+        }
         gameControl.Player.Enable();
         gameControl.Player.Interact.performed += Interact_performed;
         gameControl.Player.Operate.performed += Operate_performed;
@@ -97,6 +102,9 @@ public class GameInput : MonoBehaviour
             callback.Dispose();
             gameControl.Player.Enable();
             onComplete?.Invoke();
+           
+            PlayerPrefs.SetString(GAMEINPUT_BINDINGS, gameControl.SaveBindingOverridesAsJson());
+            PlayerPrefs.Save();
         }).Start();
     }
     public string GetBindingDisplayString(BindingType bindingType)
@@ -138,7 +146,7 @@ public class GameInput : MonoBehaviour
         print(gameControl.Player.Move.bindings[4].ToDisplayString());
         print();
     }*/
-    private void onDestroy()
+    private void OnDestroy()
     {
         gameControl.Player.Interact.performed -= Interact_performed;
         gameControl.Player.Operate.performed -= Operate_performed;
@@ -153,11 +161,19 @@ public class GameInput : MonoBehaviour
 
     private void Operate_performed(UnityEngine.InputSystem.InputAction.CallbackContext obj)
     {
+        if (OnOperateAction == null)
+        {
+            Debug.Log("OnOperateAction is null!");
+        }
         OnOperateAction?.Invoke(this, EventArgs.Empty);
     }
 
     private void Interact_performed(UnityEngine.InputSystem.InputAction.CallbackContext obj)
     {
+        if (OnInteractAction == null)
+        {
+            Debug.Log("OnOperateAction is null!");
+        }
         OnInteractAction?.Invoke(this, EventArgs.Empty);
     }
 
