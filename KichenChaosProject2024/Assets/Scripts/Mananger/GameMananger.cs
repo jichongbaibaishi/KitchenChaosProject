@@ -23,9 +23,12 @@ public class GameMananger : MonoBehaviour
     //private float waitingtostoptimer = 1;
     private float countdowntostart = 3;
     private float gameplayingtomer= 30;
+    private float gamePlayingTimeTotal;
+
     private void Awake()
     {
         instance = this;
+        gamePlayingTimeTotal = gameplayingtomer;
        
     }
     private void Start()
@@ -133,5 +136,14 @@ public class GameMananger : MonoBehaviour
             Time.timeScale=1;
             onGameUnpaused?.Invoke(this, EventArgs.Empty);
         }
+    }
+
+    public float GetGamePlayingTimer()
+    {
+        return gameplayingtomer;
+    }
+    public float GetGamePlayingTimerNormalized()
+    {
+        return gameplayingtomer / gamePlayingTimeTotal;
     }
 }
