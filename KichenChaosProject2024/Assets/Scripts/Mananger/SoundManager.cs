@@ -11,6 +11,7 @@ public class SoundManager : MonoBehaviour
         instance = this;
         LoadVolume();
     }
+
     private void Start()
     {
         OrderMananger.Instance.OnRecipeSuccessed += Instance_OnRecipeSuccessed;
@@ -21,7 +22,10 @@ public class SoundManager : MonoBehaviour
         TrashCounter.OnObjectTrashed += TrashCounter_OnObjectTrashed;
         
     }
-
+    public void playCountDownSound()
+    {
+        PlaySound(audioClipRefsSO.warning);
+    }
     private void TrashCounter_OnObjectTrashed(object sender, System.EventArgs e)
     {
         PlaySound(audioClipRefsSO.trash);

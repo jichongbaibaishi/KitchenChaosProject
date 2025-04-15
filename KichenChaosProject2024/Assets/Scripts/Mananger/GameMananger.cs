@@ -120,6 +120,9 @@ public class GameMananger : MonoBehaviour
     {
         return state == State.GameOver;
     }
+    public bool IsWaitingToStartState() { 
+        return state == State.WaitingToStart;
+    }
     public float GetCountDownTimer()
     {
         return countdowntostart;
