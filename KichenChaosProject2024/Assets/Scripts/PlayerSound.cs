@@ -22,8 +22,8 @@ public class PlayerSound : MonoBehaviour
             stepTimer=0;
             if (player.IsWalking)
             {
-                float voice = .1f;
-                SoundManager.instance.PlayerSound(voice);
+                SoundManager.instance.PlayStepSound();
+                
             }
            
         }

@@ -108,6 +108,10 @@ public class GameMananger : MonoBehaviour
     {
         player.enabled=true;
     }
+    public bool IsWaitingToStartState()
+    {
+        return state==State.WaitingToStart;
+    }
     public bool IsCountDownstate()
     {
         return state == State.CountDownToStart;

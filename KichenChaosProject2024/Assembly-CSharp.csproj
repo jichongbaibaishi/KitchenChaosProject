@@ -76,10 +76,12 @@
     <Compile Include="Assets\Scripts\Counter\ClearCounter.cs" />
     <Compile Include="Assets\Scripts\ScriptObjects\RecipelistSO.cs" />
     <Compile Include="Assets\Scripts\Counter\BaseCounter.cs" />
+    <Compile Include="Assets\Scripts\Counter\WarningControl.cs" />
     <Compile Include="Assets\Scripts\Counter\StoveCounterVisual.cs" />
     <Compile Include="Assets\Scripts\UI\RecipeUI.cs" />
     <Compile Include="Assets\Scripts\ScriptObjects\CuttingRecipeSO.cs" />
     <Compile Include="Assets\Scripts\Mananger\GameMananger.cs" />
+    <Compile Include="Assets\Scripts\UI\TutorialUI.cs" />
     <Compile Include="Assets\Scripts\UI\KitchenObjectGridUI.cs" />
     <Compile Include="Assets\Scripts\Counter\ContainerCounterVisual.cs" />
     <Compile Include="Assets\Scripts\Mananger\SoundManager.cs" />

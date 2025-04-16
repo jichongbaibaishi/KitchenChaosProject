@@ -32,6 +32,7 @@ public class Player : KitchenObjectHolder
     private void Update()
     {
         HandleInteraction();
+      
     }
 
 
