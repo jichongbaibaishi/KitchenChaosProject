@@ -215,7 +215,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &31637606
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5636,7 +5636,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &761959544
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6637,7 +6637,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &893062745
 RectTransform:
   m_ObjectHideFlags: 0
@@ -7925,7 +7925,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1219100231
 RectTransform:
   m_ObjectHideFlags: 0
@@ -11056,6 +11056,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DeliveryCounter
+      objectReference: {fileID: 0}
+    - target: {fileID: 857616213250430332, guid: 67e2e980d896ae947b2ca09eab0cdaf6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5720096410547353746, guid: 67e2e980d896ae947b2ca09eab0cdaf6,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -1.334
+      objectReference: {fileID: 0}
+    - target: {fileID: 5720096410547353746, guid: 67e2e980d896ae947b2ca09eab0cdaf6,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 1.377
+      objectReference: {fileID: 0}
+    - target: {fileID: 7572057418551735957, guid: 67e2e980d896ae947b2ca09eab0cdaf6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8892097060037584909, guid: 67e2e980d896ae947b2ca09eab0cdaf6,
         type: 3}

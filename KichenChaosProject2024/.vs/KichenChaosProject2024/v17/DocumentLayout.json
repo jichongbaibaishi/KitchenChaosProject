@@ -1,29 +1,41 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\KitchenChaosProject\\KichenChaosProject2024\\",
+  "WorkspaceRootPath": "F:\\github\\KichenChaosProject2024\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2EF4A9C6-8553-BFCA-7AE5-4538850847A0}|Assembly-CSharp.csproj|E:\\KitchenChaosProject\\KichenChaosProject2024\\assets\\scripts\\counter\\warningcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2EF4A9C6-8553-BFCA-7AE5-4538850847A0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\counter\\warningcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2EF4A9C6-8553-BFCA-7AE5-4538850847A0}|Assembly-CSharp.csproj|f:\\github\\kichenchaosproject2024\\assets\\scripts\\ui\\deliveryresultui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EF4A9C6-8553-BFCA-7AE5-4538850847A0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\deliveryresultui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2EF4A9C6-8553-BFCA-7AE5-4538850847A0}|Assembly-CSharp.csproj|E:\\KitchenChaosProject\\KichenChaosProject2024\\assets\\scripts\\mananger\\soundmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2EF4A9C6-8553-BFCA-7AE5-4538850847A0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mananger\\soundmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2EF4A9C6-8553-BFCA-7AE5-4538850847A0}|Assembly-CSharp.csproj|f:\\github\\kichenchaosproject2024\\assets\\_assets\\font\\character.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{2EF4A9C6-8553-BFCA-7AE5-4538850847A0}|Assembly-CSharp.csproj|solutionrelative:assets\\_assets\\font\\character.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2EF4A9C6-8553-BFCA-7AE5-4538850847A0}|Assembly-CSharp.csproj|E:\\KitchenChaosProject\\KichenChaosProject2024\\assets\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2EF4A9C6-8553-BFCA-7AE5-4538850847A0}|Assembly-CSharp.csproj|F:\\github\\KichenChaosProject2024\\assets\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2EF4A9C6-8553-BFCA-7AE5-4538850847A0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2EF4A9C6-8553-BFCA-7AE5-4538850847A0}|Assembly-CSharp.csproj|E:\\KitchenChaosProject\\KichenChaosProject2024\\assets\\scripts\\scriptobjects\\cuttingrecipeso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2EF4A9C6-8553-BFCA-7AE5-4538850847A0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scriptobjects\\cuttingrecipeso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2EF4A9C6-8553-BFCA-7AE5-4538850847A0}|Assembly-CSharp.csproj|F:\\github\\KichenChaosProject2024\\assets\\scripts\\playersound.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EF4A9C6-8553-BFCA-7AE5-4538850847A0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playersound.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2EF4A9C6-8553-BFCA-7AE5-4538850847A0}|Assembly-CSharp.csproj|E:\\KitchenChaosProject\\KichenChaosProject2024\\assets\\game controls.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2EF4A9C6-8553-BFCA-7AE5-4538850847A0}|Assembly-CSharp.csproj|F:\\github\\KichenChaosProject2024\\assets\\game controls.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2EF4A9C6-8553-BFCA-7AE5-4538850847A0}|Assembly-CSharp.csproj|solutionrelative:assets\\game controls.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2EF4A9C6-8553-BFCA-7AE5-4538850847A0}|Assembly-CSharp.csproj|E:\\KitchenChaosProject\\KichenChaosProject2024\\assets\\scripts\\mananger\\musicmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2EF4A9C6-8553-BFCA-7AE5-4538850847A0}|Assembly-CSharp.csproj|F:\\github\\KichenChaosProject2024\\assets\\scripts\\counter\\warningcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EF4A9C6-8553-BFCA-7AE5-4538850847A0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\counter\\warningcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EF4A9C6-8553-BFCA-7AE5-4538850847A0}|Assembly-CSharp.csproj|F:\\github\\KichenChaosProject2024\\assets\\scripts\\mananger\\soundmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EF4A9C6-8553-BFCA-7AE5-4538850847A0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mananger\\soundmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EF4A9C6-8553-BFCA-7AE5-4538850847A0}|Assembly-CSharp.csproj|F:\\github\\KichenChaosProject2024\\assets\\scripts\\scriptobjects\\cuttingrecipeso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EF4A9C6-8553-BFCA-7AE5-4538850847A0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scriptobjects\\cuttingrecipeso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EF4A9C6-8553-BFCA-7AE5-4538850847A0}|Assembly-CSharp.csproj|F:\\github\\KichenChaosProject2024\\assets\\scripts\\mananger\\musicmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2EF4A9C6-8553-BFCA-7AE5-4538850847A0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mananger\\musicmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -39,48 +51,84 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "WarningControl.cs",
-              "DocumentMoniker": "E:\\KitchenChaosProject\\KichenChaosProject2024\\Assets\\Scripts\\Counter\\WarningControl.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Counter\\WarningControl.cs",
-              "ToolTip": "E:\\KitchenChaosProject\\KichenChaosProject2024\\Assets\\Scripts\\Counter\\WarningControl.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Counter\\WarningControl.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvxcAAAA5AAAAAAAAAA==",
+              "Title": "DeliveryResultUI.cs",
+              "DocumentMoniker": "F:\\github\\KichenChaosProject2024\\Assets\\Scripts\\UI\\DeliveryResultUI.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\DeliveryResultUI.cs",
+              "ToolTip": "F:\\github\\KichenChaosProject2024\\Assets\\Scripts\\UI\\DeliveryResultUI.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\DeliveryResultUI.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T07:43:52.457Z",
+              "WhenOpened": "2025-04-17T12:55:05.262Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "character.txt",
+              "DocumentMoniker": "F:\\github\\KichenChaosProject2024\\Assets\\_Assets\\Font\\character.txt",
+              "RelativeDocumentMoniker": "Assets\\_Assets\\Font\\character.txt",
+              "ToolTip": "F:\\github\\KichenChaosProject2024\\Assets\\_Assets\\Font\\character.txt",
+              "RelativeToolTip": "Assets\\_Assets\\Font\\character.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-04-17T07:05:34.578Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PlayerSound.cs",
+              "DocumentMoniker": "F:\\github\\KichenChaosProject2024\\Assets\\Scripts\\PlayerSound.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerSound.cs",
+              "ToolTip": "F:\\github\\KichenChaosProject2024\\Assets\\Scripts\\PlayerSound.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerSound.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T07:04:46.303Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "WarningControl.cs",
+              "DocumentMoniker": "F:\\github\\KichenChaosProject2024\\Assets\\Scripts\\Counter\\WarningControl.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Counter\\WarningControl.cs",
+              "ToolTip": "F:\\github\\KichenChaosProject2024\\Assets\\Scripts\\Counter\\WarningControl.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Counter\\WarningControl.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T07:43:52.457Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "SoundManager.cs",
-              "DocumentMoniker": "E:\\KitchenChaosProject\\KichenChaosProject2024\\Assets\\Scripts\\Mananger\\SoundManager.cs",
+              "DocumentMoniker": "F:\\github\\KichenChaosProject2024\\Assets\\Scripts\\Mananger\\SoundManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Mananger\\SoundManager.cs",
-              "ToolTip": "E:\\KitchenChaosProject\\KichenChaosProject2024\\Assets\\Scripts\\Mananger\\SoundManager.cs",
+              "ToolTip": "F:\\github\\KichenChaosProject2024\\Assets\\Scripts\\Mananger\\SoundManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\Mananger\\SoundManager.cs",
               "ViewState": "AgIAAC0AAAAAAAAAAAAcwDcAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T07:32:30.876Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-16T07:32:30.876Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Player.cs",
-              "DocumentMoniker": "E:\\KitchenChaosProject\\KichenChaosProject2024\\Assets\\Scripts\\Player.cs",
+              "DocumentMoniker": "F:\\github\\KichenChaosProject2024\\Assets\\Scripts\\Player.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player.cs",
-              "ToolTip": "E:\\KitchenChaosProject\\KichenChaosProject2024\\Assets\\Scripts\\Player.cs",
+              "ToolTip": "F:\\github\\KichenChaosProject2024\\Assets\\Scripts\\Player.cs",
               "RelativeToolTip": "Assets\\Scripts\\Player.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAADwvyIAAAAGAAAAAAAAAA==",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-13T10:59:01.198Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "CuttingRecipeSO.cs",
-              "DocumentMoniker": "E:\\KitchenChaosProject\\KichenChaosProject2024\\Assets\\Scripts\\ScriptObjects\\CuttingRecipeSO.cs",
+              "DocumentMoniker": "F:\\github\\KichenChaosProject2024\\Assets\\Scripts\\ScriptObjects\\CuttingRecipeSO.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ScriptObjects\\CuttingRecipeSO.cs",
-              "ToolTip": "E:\\KitchenChaosProject\\KichenChaosProject2024\\Assets\\Scripts\\ScriptObjects\\CuttingRecipeSO.cs",
+              "ToolTip": "F:\\github\\KichenChaosProject2024\\Assets\\Scripts\\ScriptObjects\\CuttingRecipeSO.cs",
               "RelativeToolTip": "Assets\\Scripts\\ScriptObjects\\CuttingRecipeSO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -90,9 +138,9 @@
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "Game Controls.cs",
-              "DocumentMoniker": "E:\\KitchenChaosProject\\KichenChaosProject2024\\Assets\\Game Controls.cs",
+              "DocumentMoniker": "F:\\github\\KichenChaosProject2024\\Assets\\Game Controls.cs",
               "RelativeDocumentMoniker": "Assets\\Game Controls.cs",
-              "ToolTip": "E:\\KitchenChaosProject\\KichenChaosProject2024\\Assets\\Game Controls.cs",
+              "ToolTip": "F:\\github\\KichenChaosProject2024\\Assets\\Game Controls.cs",
               "RelativeToolTip": "Assets\\Game Controls.cs",
               "ViewState": "AQIAACQAAAAAAAAAAAAIwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -100,11 +148,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "MusicManager.cs",
-              "DocumentMoniker": "E:\\KitchenChaosProject\\KichenChaosProject2024\\Assets\\Scripts\\Mananger\\MusicManager.cs",
+              "DocumentMoniker": "F:\\github\\KichenChaosProject2024\\Assets\\Scripts\\Mananger\\MusicManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Mananger\\MusicManager.cs",
-              "ToolTip": "E:\\KitchenChaosProject\\KichenChaosProject2024\\Assets\\Scripts\\Mananger\\MusicManager.cs",
+              "ToolTip": "F:\\github\\KichenChaosProject2024\\Assets\\Scripts\\Mananger\\MusicManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\Mananger\\MusicManager.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAAA8AAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
